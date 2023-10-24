@@ -56,7 +56,7 @@ class Server:
 
         index_tuple = index_range(page, page_size)
 
-        return self.dataset()[index_tuple[0] : index_tuple[1]]
+        return self.dataset()[index_tuple[0]:index_tuple[1]]
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> Dict:
         """
