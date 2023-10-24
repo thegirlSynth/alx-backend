@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Implementing a simple pagination
+"""
+
 
 import csv
 from itertools import islice
